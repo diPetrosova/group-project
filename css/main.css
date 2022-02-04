@@ -14,3 +14,8 @@ body {
     clear: both;
     display: table;
 }
+
+main {
+    width: 1024px;
+    margin: 0 auto;
+}
