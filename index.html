@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <title>Tourism page</title>
     <link rel="shortcut icon" href="images/travel-icon.ico">
+    <script type="text/javascript" src="js/w3schoolsHTMLIncluder.js"></script>
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="css/header.css">
@@ -13,10 +14,10 @@
 </head>
 <body>
 <header>
-    HEADER
+    <div w3-include-html="header.html"></div>
 </header>
 <nav>
-    NAVIGATION
+    <div w3-include-html="nav.html"></div>
 </nav>
 <main class="index-page">
     <div class="main-content">
@@ -218,7 +219,8 @@
     </div>
 </main>
 <footer>
-    FOOTER
+    <div w3-include-html="footer.html"></div>
 </footer>
+<script>includeHTML();</script>
 </body>
 </html>
