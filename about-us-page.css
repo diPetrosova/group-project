@@ -1,0 +1,55 @@
+/*Setup for main*/
+main {
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+/*Setup for main h2*/
+main h2 {
+    font-size: 12pt;
+    font-weight:normal;
+}
+/* 
+header {
+    text-align: center;
+    color: #f3f0f0;
+    text-shadow: 1px 1px 2px black;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 30px;
+    padding: 40px 0;
+    background-color: antiquewhite;
+    background-image: url(/images/header/alaska-yukon-boundary-1-1389371.jpg);
+    background-size: 1700px;
+    width: 1700px;
+    height: 280px;
+} */
+
+/*Setup for header2*/
+.header2 {
+    font-size: 30pt;
+    font-weight:bold;
+    margin-top: 8px;
+    margin-bottom: 10px;
+}
+
+/*Setup for .p1*/
+.p1{
+    text-align: center;
+    font-size: 15pt;
+    padding-left: 60px;
+    padding-right: 60px;
+    line-height: 1.5em;
+}
+
+/*Setup for .header3*/
+.header3 {
+    font-size: 22pt;
+    font-weight:normal;
+}
+
+/*Setup for .p2*/
+.p2{
+    text-align: left;
+    font-size: 12pt;
+    line-height: 1.5em;
+}
