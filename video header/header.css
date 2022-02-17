@@ -1,0 +1,35 @@
+/* header {
+    text-align: center;
+    color: #f3f0f0;
+    text-shadow: 1px 1px 2px black;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 30px;
+    padding: 40px 0;
+    background-image: url(/images/header/alaska-yukon-boundary-1-1389371.jpg);
+    background-size: 100%;
+    width: 100%;    
+} */
+
+.video-background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    min-width: 100%; 
+    background-size:cover;
+}
+
+/* .video-background {
+    position: absolute; 
+    right: 0; 
+    bottom: 0;
+    min-width: 100%; 
+    min-height: 100%;
+    width: auto; 
+    height: 100%; 
+    z-index: -100;
+    background-size:cover;
+    overflow:hidden;
+} */
+
+
+

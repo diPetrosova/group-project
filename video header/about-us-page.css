@@ -1,0 +1,41 @@
+/*Styles for main*/
+main {
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+/*Styles for main h2*/
+main h2 {
+    font-size: 12pt;
+    font-weight:normal;
+}
+
+/*Styles for header2*/
+.header2 {
+    font-size: 30pt;
+    font-weight:bold;
+    margin-top: 50px;
+    margin-bottom: 10px;
+}
+
+/*Styles for .p1*/
+.p1{
+    text-align: center;
+    font-size: 15pt;
+    padding-left: 60px;
+    padding-right: 60px;
+    line-height: 1.5em;
+}
+
+/*Styles for .header3*/
+.header3 {
+    font-size: 22pt;
+    font-weight:normal;
+}
+
+/*Styles for .p2*/
+.p2{
+    text-align: left;
+    font-size: 12pt;
+    line-height: 1.5em;
+}
