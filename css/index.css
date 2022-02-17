@@ -4,16 +4,12 @@
 
 .index-page .main-content {
     width: 100%;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: center;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
 }
 
 .main-content .country-wrapper {
-    width: 49%;
-    margin-right: 2%;
-    margin-bottom: 20px;
     background-color: #fbf9f9;
     border-radius: 8px;
 }
@@ -25,8 +21,13 @@
 .main-content .country-image {
     height: 250px;
     overflow: hidden;
-    border-radius: 8px;
-    margin-bottom: 15px;
+    border-radius: 8px 8px 0 0;
+}
+
+.main-content .country-image a {
+    height: 250px;
+    display: flex;
+    align-items: center;
 }
 
 .main-content .country-image img {
@@ -40,13 +41,16 @@
 }
 
 .main-content .country-image img {
-    width: 500px;
+    width: 100%;
+    max-width: 500px;
+    height: auto;
 }
 
 .country-wrapper .country-name {
     color: #005870;
     font-size: 24px;
-    padding: 0 10px;
+    display: inline-block;
+    padding: 10px 10px;
 }
 
 .add-links ul {
@@ -70,10 +74,11 @@
     border-radius: 15px;
     padding: 6px;
     display: inline-block;
+    transition: all 0.7s ease;
 }
 
 .add-links li a:hover {
-    background-color: #ffffff;
+    background-color: #00b2ff;
 }
 
 .country-wrapper .country-info {
