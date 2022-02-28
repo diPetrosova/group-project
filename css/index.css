@@ -84,3 +84,18 @@
 .country-wrapper .country-info {
     padding: 0 10px;
 }
+
+@media screen and (max-width: 1024px) {
+    .index-page .main-content {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .main-content .country-image img {
+        max-width: none;
+    }
+
+    .main-content .country-image a {
+        display: flex;
+        align-items: center;
+    }
+}
