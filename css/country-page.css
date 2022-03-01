@@ -1,0 +1,591 @@
+main {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    display: grid;
+}
+
+.header1 {
+    font-size: 16pt;
+    font-weight:bold;
+    margin-top: 1.5em;
+    text-align: left;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.p1 {
+    font-size: 12pt;
+    width: 65%;
+    float: left;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.flag {
+    float: right;
+    text-align: right;
+    margin-top: -14em;
+}
+
+.header2 {
+    font-size: 10pt;
+    margin-top: 0px;
+    font-weight:bold;
+    padding-right: 16.5em;
+}
+
+.map {
+    text-indent: 7.5em;
+    margin-top: -8em;
+}
+
+@media only screen and (min-width: 280px) {
+
+    .header1  {
+        font-size: 12pt;
+        text-indent: 0.5em;
+    }
+
+    .p1 {
+        font-size: 11pt;
+        width: 90%;
+        padding-left: 0.5em;
+        display:grid;
+    }
+
+    .flag {
+        margin-top: 0em;
+        padding-left: 0.5em;
+        text-align: left;
+    }
+
+    .header2 {
+        font-size: 10pt;
+    }
+
+    .map {
+        text-indent: 0.5em;
+        margin-top: 0.5em;
+        max-width: 100%;
+    }
+}
+
+@media only screen and (min-width: 360px) {
+
+    .header1 {
+        font-size: 12pt;
+        text-indent: 0.5em;
+    }
+
+    .p1 {
+        font-size: 11pt;
+        width: 90%;
+        padding-left: 0.5em;
+        display:grid;
+    }
+
+    .flag {
+        margin-top: 0em;
+        padding-left: 0.5em;
+        text-align: left;
+    }
+
+    .header2 {
+        font-size: 10pt;
+    }
+
+    .map {
+        text-indent: 0.5em;
+        margin-top: 0.5em;
+        max-width: 100%;
+    }
+}
+
+@media only screen and (min-width: 375px) {
+
+    .header1 {
+        font-size: 12pt;
+        text-indent: 0.5em;
+    }
+
+    .p1 {
+        font-size: 10pt;
+        width: 95%;
+        text-align: justify;
+        padding-left: 0.5em;
+        display:grid;
+    }
+
+    .flag {
+        width: 60%;
+        display: inline;
+        margin-top: 0em;
+        padding-left: 0.5em;
+        text-align: left;
+        float: left;
+
+    }
+
+    .header2 {
+        font-size: 10pt;
+        text-indent: 0.5em;
+    }
+
+
+    .map {
+        width: 90%;
+        padding-left: 0.5em;
+        text-indent: 0.5em;
+        margin-top: 0.5em;
+        max-width: 100%;
+    }
+}
+
+@media only screen and (min-width: 412px) {
+
+    .header1 {
+        font-size: 12pt;
+        text-indent: 0.5em;
+    }
+
+    .p1 {
+        font-size: 11pt;
+        padding-left: 0.5em;
+        display:grid;
+    }
+
+    .flag {
+        margin-top: 0em;
+        padding-left: 0.5em;
+        text-align: left;
+    }
+
+    .header2 {
+        font-size: 10pt;
+    }
+
+    .map {
+        text-indent: 0.5em;
+        margin-top: 0.5em;
+        max-width: 100%;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+
+    .header1 {
+        font-size: 14pt;
+        text-indent: 0.5em;
+    }
+
+    .p1 {
+        font-size: 11pt;
+        width: 90%;
+        padding-left: 0.5em;
+        display:grid;
+    }
+
+    .flag {
+        margin-top: 0em;
+        padding-left: 0.5em;
+        text-align: left;
+    }
+
+    .header2 {
+        font-size: 9pt;
+    }
+
+    .map {
+        text-indent: 0.5em;
+        margin-top: 0.5em;
+        max-width: 100%;
+        width: 100%;
+        height: auto !important;
+    }
+}
+
+@media only screen and (min-width: 820px) {
+
+    .header1 {
+        font-size: 16pt;
+        text-indent: 0.5em;
+        padding-left: 0.5em;
+    }
+
+    .p1 {
+        font-size: 12pt;
+        width: 95%;
+        padding-left: 1em;
+        display:grid;
+    }
+
+    .flag {
+        margin-top: 0em;
+        padding-left: 1em;
+        text-align: left;
+    }
+
+    .header2 {
+        font-size: 10pt;
+        margin-top: 24em;
+        display: flex;
+        flex-wrap: wrap;
+        padding-left: 1em;
+    }
+
+    .map {
+        text-indent: 0.5em;
+        margin-top: 0.5em;
+        max-width: 100%;
+        width: 90%;
+        height: auto !important;
+    }
+}
+
+@media only screen and (min-width: 912px) {
+
+    .header1 {
+        font-size: 16pt;
+        text-indent: 0.5em;
+    }
+
+    .p1 {
+        font-size: 12pt;
+        width: 100%;
+        padding-left: 0.5em;
+        display:grid;
+    }
+
+    .flag {
+        margin-top: 0em;
+        padding-left: 0.5em;
+        text-align: left;
+    }
+
+    .header2 {
+        font-size: 10pt;
+    }
+
+    .map {
+        text-indent: 0.5em;
+        margin-top: 0.5em;
+        max-width: 100%;
+        width: 100%;
+        height: auto !important;
+    }
+}
+
+@media only screen and (min-width: 1024px) {
+
+    .header1 {
+        font-size: 14pt;
+        text-indent: -0.1em;
+    }
+
+    .p1 {
+        width: 64%;
+        font-size: 11.5pt;
+        padding-left: 0.5em;
+        display:grid;
+    }
+
+    .flag {
+        width: 30%;
+        margin-top: -12em;
+        margin-left: 42em;
+        display: grid;
+    }
+
+    .header2 {
+        font-size: 9pt;
+        float: right;
+        margin-top: 1em;
+        margin-right: 6.2em;
+
+    }
+
+    .map {
+        text-indent: 0.5em;
+        margin-top: -10em;
+        width: 40%;
+    }
+}
+
+.p2 {
+    font-size: 11.5pt;
+    width: 29.5%;
+    text-align: left;
+    text-indent: 0em;
+    float: right;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.p3 {
+    font-size: 11.5pt;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+@media only screen and (min-width: 280px) {
+
+    .p2 {
+        font-size: 11pt;
+        width: 70%;
+        float: left;
+        text-align: left;
+    }
+
+    .p3 {
+        font-size: 11pt;
+        padding-left: 0.5em;
+    }
+}
+
+@media only screen and (min-width: 360px) {
+
+    .p2 {
+        font-size: 11pt;
+        width: 70%;
+        float: left;
+        text-align: left;
+    }
+
+    .p3 {
+        font-size: 11pt;
+        padding-left: 0.5em;
+    }
+}
+
+@media only screen and (min-width: 375px) {
+
+    .p2 {
+        font-size: 10pt;
+        width: 100%;
+        float: left;
+        text-align: left;
+        padding-left: 0.5em;
+        padding-right: 0.5em;
+    }
+
+    .p3 {
+        width: 95%;
+        text-align: justify;
+        font-size: 10pt;
+        padding-left: 0.5em;
+    }
+}
+
+@media only screen and (min-width: 412px) {
+
+    .p2 {
+        font-size: 11pt;
+        width: 70%;
+        float: left;
+        text-align: left;
+    }
+
+    .p3 {
+        font-size: 11pt;
+        padding-left: 0.5em;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+
+    .p2 {
+        font-size: 11pt;
+        width: 70%;
+        float: left;
+        text-align: left;
+    }
+
+    .p3 {
+        font-size: 11pt;
+        padding-left: 0.5em;
+    }
+}
+
+@media only screen and (min-width: 820px) {
+
+    .p2 {
+        font-size: 12pt;
+        width: 70%;
+        float: left;
+        text-align: left;
+    }
+
+    .p3 {
+        font-size: 12pt;
+        padding-left: 0.5em;
+    }
+}
+
+@media only screen and (min-width: 912px) {
+
+    .p2 {
+        font-size: 12pt;
+        width: 70%;
+        float: left;
+        text-align: left;
+    }
+
+    .p3 {
+        font-size: 12pt;
+        padding-left: 0.5em;
+    }
+}
+
+@media only screen and (min-width: 1024px) {
+
+    .p2 {
+        margin-top: 0.5em;
+        font-size: 10.5pt;
+        width: 99%;
+        float: right;
+        padding-left: 47.5em;
+
+    }
+
+    .p3 {
+        font-size: 11.5pt;
+        padding-left: 0.5em;
+    }
+}
+
+table {
+    border-collapse: collapse;
+    display: grid;
+    float: left;
+}
+
+caption {
+    text-align: left;
+    font-weight: bold;
+    font-size: 115%;
+    padding-bottom: .25em;
+    display: grid;
+}
+
+tr {
+    font-size: 10.5pt;
+}
+
+td {
+    padding: .2em .7em;
+    text-align: right;
+    border: 1px solid black;
+}
+
+th:first-child, td:first-child {
+    text-align: left;
+}
+
+th:nth-child(2), td:nth-child(2) {
+    text-align: left;
+}
+
+tbody tr:nth-child(even) {
+    background-color: silver;
+}
+
+@media only screen and (min-width: 360px) {
+
+    caption {
+        font-size: 12pt;
+        padding-left: 0.5em;
+    }
+
+    table {
+        padding-left: 0.5em;
+    }
+
+    tr {
+        font-size: 10pt;
+    }
+}
+
+
+@media only screen and (min-width: 375px) {
+
+    caption {
+        font-size: 12pt;
+        padding-left: 0.2em;
+    }
+
+    table {
+        width: 92%;
+        padding-left: 0.2em;
+    }
+
+    tr {
+        font-size: 10pt;
+    }
+}
+
+@media only screen and (min-width: 412px) {
+
+    caption {
+        font-size: 12pt;
+        padding-left: 0.5em;
+    }
+
+    table {
+        padding-left: 0.5em;
+    }
+
+    tr {
+        font-size: 10.5pt;
+    }
+}
+
+@media only screen and (min-width: 820px) {
+
+    caption {
+        font-size: 14pt;
+        padding-left: 0.5em;
+    }
+
+    table {
+        padding-left: 0.5em;
+    }
+
+    tr {
+        font-size: 12pt;
+    }
+}
+
+@media only screen and (min-width: 912px) {
+
+    caption {
+        font-size: 14pt;
+        padding-left: 0.5em;
+    }
+
+    table {
+        padding-left: 0.5em;
+    }
+
+    tr {
+        font-size: 12pt;
+    }
+}
+
+@media only screen and (min-width: 1024px) {
+
+    caption {
+        font-size: 14pt;
+        margin-left: -0.6em;
+    }
+
+    table {
+        display: grid;
+        float: left;
+        align-items: center;
+        text-align: justify;
+        border-collapse: collapse;
+    }
+
+    tr {
+        font-size: 10pt;
+    }
+}
