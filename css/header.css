@@ -1,7 +1,7 @@
 .container {
-    position: relative;
-    width: 100%;
-    height: 100%;
+    position: relative; 
+    width: 100%; 
+    height: 100%; 
     background-color:lightsteelblue;
 }
 
@@ -11,6 +11,7 @@
 }
 
 .text-box {
+    text-align: center;
     font-size: 30px;
     font-weight: 900;
     position: absolute;
@@ -27,7 +28,7 @@
 }
 
 @media only screen and (min-width: 280px) {
-
+    
     .text-box {
         width: 100%;
         font-size: 6pt;
@@ -36,8 +37,8 @@
 }
 
 @media only screen and (min-width: 360px) {
-
-    .text-box {
+    
+      .text-box {
         width: 100%;
         font-size: 6pt;
     }
@@ -45,62 +46,57 @@
 }
 
 @media only screen and (min-width: 375px) {
-
+    
     .text-box {
         width: 100%;
         font-size: 6pt;
-        text-indent: -3.5em;
     }
 
 }
 
 @media only screen and (min-width: 414px) {
-
+    
     .text-box {
         width: 100%;
         font-size: 6pt;
-        text-indent: -3.5em;
     }
 
 }
 
 @media only screen and (min-width: 540px) {
-
+    
     .text-box {
         width: 100%;
         font-size: 8pt;
-        text-indent: -3.5em;
     }
 
 }
 
 @media only screen and (min-width: 768px) {
-
+    
     .text-box {
         font-size: 12pt;
-        text-align: center;
     }
 }
 
 @media only screen and (min-width: 820px) {
-
+    
     .text-box {
         font-size: 12pt;
     }
 }
 
 @media only screen and (min-width: 912px) {
-
+    
     .text-box {
         font-size: 12pt;
     }
 }
 
 @media only screen and (min-width: 1024px) {
-
+    
     .text-box {
         font-size: 20pt;
-        text-align: center;
     }
 
 }
