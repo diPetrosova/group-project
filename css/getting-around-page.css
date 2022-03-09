@@ -1,0 +1,129 @@
+#main {
+    width: 100%;
+}
+
+#navigation {
+    height: 2.0%;
+    width: auto;
+    text-align: center;
+}
+
+#image img {
+    height: 41.6%;
+    width: 41.6%;
+    overflow: hidden;
+    border-radius: 8px;
+    margin-bottom: 15px;
+    margin: auto;
+    align-items: center;
+    display: block;
+}
+
+#sub_1 {
+    width: 62.5%;
+    height: max-content;
+    text-align: center;
+    margin: auto;
+    display: block;
+}
+
+#sub_2 {
+    width: 52.0%;
+    text-align: center;
+    height: max-content;
+    margin-left: center;
+    width: fit-content;
+    margin: auto;
+    display: block;
+}
+
+#navigation {
+    text-align: center;
+    color: blue;
+    font-size: 10px;
+    padding: 15px 0;
+    background-color: #eefdd8;
+}
+
+header {
+    text-align: center;
+    color: #f3f0f0;
+    text-shadow: 1px 1px 2px black;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 30px;
+    padding: 40px 0;
+    /* background-color: antiquewhite; */
+    background-image: url(images/china/header.jpg);
+    background-size: 100%;
+    width: 100%;
+    background-repeat: no-repeat;
+}
+
+.column {
+    float: left;
+    width: 45%;
+    margin-left: 3%;
+    background-color: #f5f1f1;
+    padding: 10px;
+    margin-bottom: 2%;
+    border-radius: 8px 8px 8px 8px;
+  }
+.column .sub2-images{
+    height: 70%;
+    width: 90%;
+    overflow: hidden;
+    margin-left: 5%;
+}
+  .column .sub2-images img {
+    transform: scale(1);
+    transition-property: transform;
+    transition-duration: 2s;
+    width: 100%;
+    height: auto;
+    max-width: 500px;
+    max-height: 300px;
+    border-radius: 8px 8px 0 0;
+}
+
+.column .sub2-images:hover img {
+    transform: scale(1.25);
+}
+  
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  .column p {
+    text-align: justify;
+    text-justify: inter-word;
+  }
+
+footer ul {
+    list-style-type: none;
+}
+
+footer {
+    text-align: center;
+    color: rgb(1, 1, 15);
+    font-size: 20px;
+    padding: 20px 0;
+    background-color: #bfcac8;
+    margin-top: 30px;
+}
+
+
+@media only screen and (max-width : 1024px) {
+    .main {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .column .sub2-images img {
+        max-width: none;
+        display: flex;
+        align-items: center;
+    }
+    .column{
+        width: 90%;
+    }
+}
