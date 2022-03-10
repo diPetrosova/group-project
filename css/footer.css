@@ -1,8 +1,12 @@
 footer {
-    text-align: center;
-    color: blue;
-    font-size: 30px;
-    padding: 40px 0;
-    background-color: #d7faf4;
-    margin-top: 30px;
+  text-align: center;
+  color: rgb(0, 0, 5);
+  font-size: 30px;
+  padding: 40px 0;
+  background-color: #c2cecc;
+  margin-top: 30px;
+}
+
+footer > div > ul {
+  list-style-type: none;
 }
