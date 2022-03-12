@@ -69,8 +69,9 @@
 
 .add-links li a {
     text-decoration: none;
-    color: #005870;
-    border: 1px solid #005870;
+    color: #ffffff;
+    border: 1px solid #e66465;
+    background: #e66465;
     border-radius: 15px;
     padding: 6px;
     display: inline-block;
@@ -78,11 +79,11 @@
 }
 
 .add-links li a:hover {
-    background-color: #00b2ff;
+    color: #000000;
 }
 
 .country-wrapper .country-info {
-    padding: 0 10px;
+    padding: 0 10px 10px;
 }
 
 @media screen and (max-width: 1024px) {
