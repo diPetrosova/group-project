@@ -1,33 +1,33 @@
 footer {
     text-align: center;
-    color: rgb(0, 0, 5);
+    color: #ffffff;
     padding: 15px 0;
-    background-color: #c2cecc;
+    background-color: #0b8a9a;
     margin-top: 30px;
 }
 
-p {
+footer p {
     margin: 0;
     font-size: 16px;
-    color: #505050;
+    color: #ffffff;
 }
 
-.social-links {
+footer .social-links {
     margin: 0;
     padding: 10px 0 0;
 }
 
-.social-links li {
+footer .social-links li {
     display: inline-block;
     padding: 0 5px;
 }
 
 footer .social-links a {
-    color: #e66465;
+    color: #ffffff;
     text-decoration: none;
     font-size: 20px;
 }
 
 footer .social-links a:hover {
-    color: #ffffff;
+    color: #e66465;
 }
