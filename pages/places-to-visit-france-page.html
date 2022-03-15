@@ -29,6 +29,47 @@
       <div w3-include-html="nav.html"></div>
     </nav>
     <main>
+      <div id="myModal" class="modal">
+        <div class="modal-content">
+          <span class="close">&times;</span>
+          <h2>Contact an Agent and plan your itinerary now !</h2>
+          <hr />
+          <br />
+          <form action="submit">
+            <label for="firstName">First Name: </label>
+            <input
+              type="text"
+              name="firstName"
+              id="firstName"
+              placeholder="First Name"
+              required
+            />
+            <br />
+            <label for="lastName">Last Name: </label>
+            <input
+              type="text"
+              name="lastName"
+              id="lastName"
+              placeholder="Last Name"
+              required
+            />
+            <br />
+            <label for="mobile">Mobile Number: </label>
+            <input type="text" name="mobile" id="mobile" />
+            <br />
+            <label for="email">Email: </label>
+            <input type="email" name="email" id="email" />
+            <br />
+            <label for="from">From: </label>
+            <input type="from" name="from" id="from" required />
+            <br />
+            <label for="to">To: </label>
+            <input type="to" name="to" id="to" readonly value="France" />
+            <br />
+            <button id="submit">Submit</button>
+          </form>
+        </div>
+      </div>
       <div class="slideshow-container fade">
         <div class="containers">
           <img src="../images/france/places/biarritz-beach.jpg" />
@@ -369,6 +410,7 @@
       <div w3-include-html="footer.html"></div>
     </footer>
     <script src="../js/carousel.js"></script>
+    <script src="../js/modal.js"></script>
     <script>
       includeHTML();
     </script>
