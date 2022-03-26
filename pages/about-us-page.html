@@ -84,14 +84,10 @@
         </span>
       </p>
 
-      <!--Images for Who we are-->
-      <picture>
-        <img
-          class="whowe"
-          src="../images/about-us-page images/beach-1404880.png"
-          alt=""
-        />
-      </picture>
+       <!--Images for Who we are-->
+      <div>
+        <a href="../pages/about-us-page.html"><img src="../images/about-us-page images/beach.png" name="slideshow" id="slideshow"  width="430" height="300"></a>
+      </div>
 
       <!--Header for Our Team-->
       <h2 class="header3">Our Team</h2>
@@ -126,6 +122,10 @@
     <footer>
       <div w3-include-html="footer.html"></div>
     </footer>
+
+    <!--Make an automatic slide to display the images-->
+    <script src="../js/about-us.js"></script>
+
     <script>
       includeHTML();
     </script>
