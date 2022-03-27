@@ -20,16 +20,20 @@
     <link rel="stylesheet" href="../css/gallery.css" />
   </head>
   <body>
+  <!--  including header -->
     <header>
       <div w3-include-html="header.html"></div>
     </header>
+  <!--  including navigation -->
     <nav>
       <div w3-include-html="nav.html"></div>
     </nav>
+  <!--main part -->
     <main>
       <h2>Photos of Turkey</h2>
       <div class="gg-container">
-        <div class="gg-box" id="dark">
+        <!--        images for gallery-->
+        <div class="gg-box">
           <img src="../images/gallery/Turkey/01.jpg" />
           <img src="../images/gallery/Turkey/02.jpg" />
           <img src="../images/gallery/Turkey/03.jpg" />
@@ -62,13 +66,21 @@
         </div>
       </div>
     </main>
+  <!--including footer-->
     <footer>
       <div w3-include-html="footer.html"></div>
     </footer>
+  <!--script for including other html pages-->
     <script>
       includeHTML();
     </script>
+  <!--    scripts for gallery-->
     <script type="text/javascript" src="../js/grid-gallery.min.js"></script>
-    <script type="text/javascript" src="../js/main-javascript.js"></script>
+    <script type="text/javascript" src="../js/gallery.js"></script>
+  <!--scroll to top button-->
+    <button onclick="scrollToTop()" class="to-top fa-2x">
+      <i class="fa fa-arrow-up fa-flip" aria-hidden="true"></i>
+    </button>
+    <script src="../js/main-javascript.js"></script>
   </body>
 </html>
