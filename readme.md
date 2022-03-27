@@ -13,7 +13,7 @@ Page 1 - Home page
 Page 2 - Gallery page
 Page 3 - Tips for travellers
 Project structure
-Weather Widget
+Merging code to the repo 
 
 Jaimaica Daisy Eugenio:
 Page 1 - About Us page (This page will be about out company, where the company was established, where it wotks, about expereince...)
