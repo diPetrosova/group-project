@@ -19,3 +19,32 @@ main {
     max-width: 1024px;
     margin: 0 auto;
 }
+
+.to-top {
+    display: none;
+    position: fixed;
+    right: 50px;
+    bottom: 50px;
+    color: #ffffff;
+    border: 1px solid #e66465;
+    background: #e66465;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.to-top:hover {
+    background: #f12627;
+}
+
+.to-top-visible {
+    display: block;
+}
+
+@media (max-width: 1025px) {
+    .to-top {
+        bottom: 10px;
+        right: 10px;
+        opacity: 0.7;
+    }
+
+}
