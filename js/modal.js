@@ -7,3 +7,8 @@ var span = document.getElementsByClassName("close")[0];
 span.onclick = function () {
   modal.style.display = "none";
 };
+
+//to display the modal after 2500 ms of opening the page
+setTimeout(() => {
+  document.getElementsByClassName("modal")[0].style.display = "block";
+}, 2500);
