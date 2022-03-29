@@ -68,9 +68,15 @@
         </p>
       </div>
 
-      <picture>
-        <img class="map" src="../images/country-page/Turkey-map.jpg" alt="" />
-      </picture>
+      <div class="slider">
+        <div>
+          <img src="/images/country-page/Turkey-map.jpg" name="slideshow6"  id="slideshow6">
+        </div>
+        <div class="sliderButton">
+          <button id="pre" onclick="changeImage6(-1)">Previous</button>
+          <button id="nex" onclick="changeImage6(1)">Next</button>
+        </div>
+      </div>
 
       <p class="p3">
         <span
@@ -184,12 +190,12 @@
     <footer>
       <div w3-include-html="footer.html"></div>
     </footer>
+    <script src="../js/country_page.js"></script>
     <script>
       includeHTML();
     </script>
     <button onclick="scrollToTop()" class="to-top fa-2x">
       <i class="fa fa-arrow-up fa-flip" aria-hidden="true"></i>
     </button>
-    <script src="../js/main-javascript.js"></script>
   </body>
 </html>
