@@ -16,10 +16,10 @@ nav > div > ul > li {
     padding: 1rem 1.3rem;
 }
 
-nav > div > ul > li:first-child {
+/*nav > div > ul > li:first-child {
     padding: 5px 0;
     z-index: 10;
-}
+}*/
 
 nav ul a {
     display: inline-block;
