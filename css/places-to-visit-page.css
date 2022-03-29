@@ -125,7 +125,25 @@ article > p {
 @media screen and (max-width: 1024px) {
   .wrapper {
     display: grid;
-    grid-template-columns: 500px;
+    grid-template-columns: 400px;
+  }
+
+  .place-items > p,
+  img {
+    width: 25rem;
+  }
+
+  aside {
+    width: 15rem;
+  }
+
+  .modal {
+    width: 30%;
+    height: 30%;
+  }
+
+  form > input {
+    width: 10rem;
   }
 }
 
@@ -146,7 +164,7 @@ input {
 }
 
 .modal {
-  display: block;
+  display: none;
   position: fixed;
   z-index: 1;
   padding-top: 200px;
