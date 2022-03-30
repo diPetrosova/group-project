@@ -1,4 +1,4 @@
-let myImagesArray = ["../images/about-us-page images/beach.png","../images/about-us-page images/abstract.png","../images/about-us-page images/man-on-mountain.png","../images/about-us-page images/silhouette.png","../images/about-us-page images/surf-boarding.png","../images/about-us-page images/surf-hawaii.png"];
+let myImagesArray = ["../images/about-us-page images/beach.png","../images/about-us-page images/balloon.png","../images/about-us-page images/man-on-mountain.png","../images/about-us-page images/silhouette.png","../images/about-us-page images/surf-boarding.png","../images/about-us-page images/surf-hawaii.png","../images/about-us-page images/relax.png","../images/about-us-page images/sand.png","../images/about-us-page images/under.png","../images/about-us-page images/boat.png"];
 let ImageNumber = 0;
 let difference = myImagesArray.length -1;
 
