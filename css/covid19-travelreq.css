@@ -3,191 +3,47 @@ main {
     display: grid;
 }
 
-main .p1 {
-    background-color:blanchedalmond;
-    padding: 0.5em;
+h1 { 
+    font-size: 150%;
+}
+
+h2 {
+    font-size: 120%;
+    padding: .25em 0 .25em 25px;
+    cursor: pointer;
+    background: url(../images/country-page/plus.png) no-repeat left center;
+}
+
+h2.minus {
+    background: url(../images/country-page/minus.png) no-repeat left center;
+}
+
+a {
+    color: black;
+    text-decoration: none; 
+}
+
+a:focus, a:hover { 
+	color: blue; 
+}
+
+.div1 {
+    display: none;
+}
+.div1.open {
+    display: block;
+}
+
+ul {
+    padding-left: 45px;
+}
+
+li {
+    padding-bottom: .25em;
+}
+
+.pa1 {
     text-align: justify;
-}
-
-main .header2, .header3 {
-    font-size: 14pt;
-    padding-top: 0.5em;
-}
-
-.nav1 .covid { 
-    text-decoration: underline; 
-    padding: 0;
-}
-
-.nav2 { flex-wrap: wrap; } 
-
-.nav2 .covidsteps { 
-    align-items: center; 
-}
-
-.nav2 .covidsteps .steps {
-    text-decoration: none;
-    background-color: rgb(3, 112, 3);
-    border-radius: 2%;
-    color: white;
-    font-weight: bold;
-    font-size: 13pt;
-    padding: 0.5em;
-    text-align: center;
-}
-
-.nav2 .covidsteps .steps:hover { 
-    background-color: rgb(2, 66, 2);
-}
-
-.nav2 .covidsteps .steps:focus { 
-    background-color: rgb(2, 66, 2);
-}
-
-.nav2 .covid2 {
-    font-size: 12pt;
-    background-color: none;
-    text-decoration: none;
-}
-
-.nav2 .covid3 {
-    font-size: 12pt;
-    padding-top: 0;
-}
-
-.nav2 .covid2 .ctest1 {
-    text-indent: 0.5em;
-}
-
-.nav2 .covid3 .students {
-    text-indent: 0.5em;
-}
-
-.nav2 .covid3 .flying {
-    text-indent: 0.5em;
-}
-
-.nav2 .covid3 .within {
-    text-indent: 0.5em;
-}
-
-.nav2 .covid3 .proof {
-    text-indent: 0.5em;
-}
-
-.nav2 .covid3 .situation {
-    text-indent: 0.5em;
-}
-
-main .p2 {
-    text-align: justify;
-}
-
-main .p3 {
-    text-align: justify;
-}
-
-@media screen and (max-width: 1024px) {
-
-    .header1 {
-        font-size: 12pt;
-        padding-left: 0.5em;
-    }
-
-    main .p1 {
-        font-size: 11pt;
-    }
-
-    main .header2 {
-        font-size: 11pt;
-        padding-left: 0.5em;
-            }
-
-    .nav2 .header2 {
-        font-size: 11pt;
-        padding-left: 0.5em;
-    }
-
-    main .nav1 {
-        font-size: 11pt;
-    }
-
-    main .nav1 .covid {
-        font-size: 11pt;
-        padding-left: 0.5em; 
-    }
-
-    .nav2 .covidsteps .steps {
-        font-size: 11pt;
-        text-indent: 0.5em;
-    }
-
-    .nav2 .covid2 {
-        font-size: 11pt;
-        padding-left: 0.5em; 
-    }
-
-    .nav2 .ctest1 {
-        font-size: 11pt;
-        padding-left: 0.5em; 
-    }
-
-    .nav2 .covid3 {
-        font-size: 11pt;
-        padding-left: 0.5em; 
-    }
-
-    .nav2 .covidsteps {
-        padding-left: 0.5em; 
-    }
-
-    .nav2 .covid2 .ctest1 {
-        font-size: 11pt;
-        padding-left: 0.5em; 
-          
-    }
-
-    .nav2 .covid3 .students {
-        text-indent: 0.1em;
-           
-     }
-
-     .nav2 .covid3 .flying {
-        text-indent: 0.1em;
-           
-     }
-
-     .nav2 .covid3 .within {
-        text-indent: 0.1em;
-           
-     }
-
-     .nav2 .covid3 .proof {
-        text-indent: 0.1em;
-           
-     }
-
-     .nav2 .covid3 .situation {
-        text-indent: 0.1em;
-           
-     }
-
-    main .header3 {
-        font-size: 12pt;
-        padding-left: 0.5em;
-    }
-
-    main .p2 {
-        font-size: 11pt;
-        padding-left: 0.5em;
-        padding-right: 0.5em;
-    }
-
-    main .p3 {
-        font-size: 11pt;
-        padding-left: 0.5em;
-        padding-right: 0.5em;
-    }
-
-    
+    padding-bottom: .25em;
+    padding-left: 25px;
 }

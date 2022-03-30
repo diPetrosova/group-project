@@ -8,200 +8,246 @@ main {
 
 /*Setup for h2*/
 main .header2 {
-    font-size: 30pt;
+    font-size: 15pt;
     font-weight:normal;
-    margin-top: 1.5em;
-    margin-bottom: 10px;
     text-align: center;
-    text-indent: 410px;
-    display: flex;
-    flex-wrap: wrap;
+    margin-top: -2em;
+    display: grid;
 }
 
 /*Setup for .p1*/
 .p1 {
-    text-align: center;
-    font-size: 15pt;
-    padding-left: 60px;
-    padding-right: 60px;
+    text-align: justify;
+    font-size: 13pt;
     line-height: 1.5em;
-    display: flex;
-    flex-wrap: wrap;
+    display: grid;
 }
 
 /*Setup for .header3*/
 .header3 {
-    font-size: 22pt;
+    font-size: 16pt;
     font-weight:normal;
     text-align: center;
-    text-indent: 430px;
-    display: flex;
-    flex-wrap: wrap;
+    display: grid;
 }
 
 /*Setup for .p2*/
 .p2, .p3 {
-    text-align: left;
+    text-align: justify;
     font-size: 13pt;
     line-height: 1.5em;
-    display: flex;
-    flex-wrap: wrap;
+    display: grid;
 }
 
-@media only screen and (min-width: 280px) {
-    
-    main .header2 {
-        font-size: 15pt;
-        text-align: left;
-        text-indent: 0.5em;
-    }
-
-    .ab1, .ab2, .whowe {
-        display: block;
-        align-items: left;
-        padding-left: 0.5em;
-    }
-
-    .p1{
-        text-align: left;
-        font-size: 11pt;
-        padding-left: 0.5em;
-    }
-
-    .header3 {
-        font-size: 14pt;
-        text-align: left;
-        text-indent: 0.5em;
-    }
-
-    .p2, .p3 {
-        text-align: left;
-        font-size: 11pt;
-        padding-left: 0.5em;
-    }
-
-}
-
-@media only screen and (min-width: 360px) {
-    
-    main .header2 {
-        font-size: 15pt;
-        text-align: left;
-        text-indent: 0.5em;
-    }
-
-    .ab1, .ab2, .whowe {
-        display: block;
-        align-items: left;
-        padding-left: 0.5em;
-    }
-
-    .p1{
-        text-align: left;
-        font-size: 11pt;
-        padding-left: 0.5em;
-    }
-
-    .header3 {
-        font-size: 14pt;
-        text-align: left;
-        text-indent: 0.5em;
-
-    }
-
-    .p2, .p3 {
-        text-align: left;
-        font-size: 11pt;
-        padding-left: 0.5em;
-    }
+/*Setup for pictures*/
+.slider {
+    max-width: 100%;
+    height: auto;
+    display: grid;
 }
 
 @media only screen and (min-width: 375px) {
-    
     main .header2 {
-        font-size: 15pt;
+        font-size: 13pt;
         text-align: left;
-        padding-left: 1em;
+        padding-left: 0.5em;
     }
 
-    .ab1, .ab2, .whowe {
-        display: block;
-        align-items: left;
-        padding-left: 1em;
-        width: 70%;
+    .p1 {
+        font-size: 12pt;
+        text-align: justify;
+        padding-left: 0.5em;
+        padding-right: 0.5em;
     }
 
-    .p1{
-        text-align: left;
-        font-size: 11pt;
-        padding-left: 1em;
+    .ab1, .ab2 {
+        padding-left: 0.5em;
+        padding-right: 0.5em;
+        width: 90%;
     }
 
     .header3 {
-        font-size: 14pt;
-        text-align: center;
-        text-indent: 0.5em;
-        padding-left: 1em;
-
+        font-size: 13pt;
+        text-align: left;
+        padding-left: 0.5em;
     }
 
     .p2, .p3 {
-        text-align: left;
-        font-size: 11pt;
-        padding-left: 1em;
+        font-size: 12pt;
+        text-align: justify;
+        padding-left: 0.5em;
+        padding-right: 0.5em;
+    }
+
+    .slider {
+        padding-left: 0.5em;
+        padding-right: 0.5em;
     }
 }
 
-@media only screen and (min-width: 1024px) { 
-    
+@media only screen and (min-width: 360px) {
     main .header2 {
-        font-size: 22pt;
-        font-weight:normal;
-        margin-top: 0.75em;
-        margin-bottom: 8px;
-        text-align: center;
-        text-indent: 430px;
-        display: flex;
-        flex-wrap: wrap;
-    }
-    
-    .ab1, .ab2 {
-        width: 40%;
-        display: inline;
+        font-size: 13pt;
+        text-align: left;
+        padding-left: 0.5em;
     }
 
-    .whowe {
-        width: 60%;
-        align-items: center;
-        display: inline;
-    }
-
-    .p1{
+    .p1 {
+        font-size: 12pt;
         text-align: justify;
-        font-size: 14pt;
-        padding-left: 60px;
-        padding-right: 60px;
-        line-height: 1.5em;
-        display: flex;
-        flex-wrap: wrap;
+        padding-left: 0.5em;
+        padding-right: 0.5em;
     }
-    
+
     .header3 {
-        font-size: 22pt;
-        font-weight:normal;
+        font-size: 13pt;
+        text-align: left;
+        padding-left: 0.5em;
+    }
+
+    .slider {
+        padding-left: 0.5em;
+        padding-right: 0.5em;
+    }
+
+    .p2, .p3 {
+        font-size: 12pt;
         text-align: justify;
-        margin-bottom: 5px;
-        text-indent: 430px;
-        display: flex;
-        flex-wrap: wrap;
+        padding-left: 0.5em;
+        padding-right: 0.5em;
+    }
+}
+
+@media only screen and (min-width: 820px) {
+    main .header2 {
+        font-size: 15pt;
+        text-align: center;
+        padding-left: 0.5em;
+    }
+
+    .ab1, .ab2 {
+        padding-left: 0.5em;
+        padding-right: 2em;
+        width: 80%;
+    }
+
+    .p1 {
+        font-size: 13pt;
+        text-align: justify;
+        padding-left: 0.5em;
+        padding-right: 0.5em;
+    }
+
+    .header3 {
+        font-size: 15pt;
+        text-align: center;
+        padding-left: 0.5em;
+    }
+
+    .p2, .p3 {
+        font-size: 13pt;
+        text-align: justify;
+        padding-left: 0.5em;
+        padding-right: 0.5em;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    main .header2 {
+        font-size: 15pt;
+        text-align: center;
+        padding-left: 0.5em;
+    }
+
+    .ab1, .ab2 {
+        padding-left: 0.5em;
+        padding-right: 2em;
+        width: 70%;
+    }
+
+    .p1 {
+        font-size: 13pt;
+        text-align: justify;
+        padding-left: 0.5em;
+        padding-right: 0.5em;
+    }
+    .header3 {
+        font-size: 15pt;
+        text-align: center;
+        padding-left: 0.5em;
+    }
+
+    .p2, .p3 {
+        font-size: 13pt;
+        text-align: justify;
+        padding-left: 0.5em;
+        padding-right: 0.5em;
+    }
+}
+
+@media only screen and (min-width: 540px) {
+    main .header2 {
+        font-size: 15pt;
+        text-align: center;
+        padding-left: 0.5em;
+    }
+
+    .ab1, .ab2 {
+        padding-left: 0.5em;
+        padding-right: 2em;
+        width: 65%;
+    }
+
+    .header3 {
+        font-size: 15pt;
+        text-align: center;
+        padding-left: 0.5em;
+    }
+}
+
+@media only screen and (min-width: 1024px) {
+    main .header2 {
+        font-size: 15pt;
+        font-weight:normal;
+        text-align: center;
+        margin-top: -2em;
+        display: grid;
     }
     
+    /*Setup for .p1*/
+    .p1 {
+        text-align: justify;
+        font-size: 13pt;
+        line-height: 1.5em;
+        display: grid;
+    }
+
+    .ab1, .ab2 {
+        padding-left: 0.5em;
+        padding-right: 0.5em;
+        width: 40%;
+    }
+    
+    /*Setup for .header3*/
+    .header3 {
+        font-size: 16pt;
+        font-weight:normal;
+        text-align: center;
+        display: grid;
+    }
+    
+    /*Setup for .p2*/
     .p2, .p3 {
         text-align: justify;
         font-size: 13pt;
         line-height: 1.5em;
-        display: flex;
-        flex-wrap: wrap;
+        display: grid;
     }
-
+    
+    /*Setup for pictures*/
+    .slider {
+        max-width: auto;
+        height: auto;
+        display: grid;
+    }
 }

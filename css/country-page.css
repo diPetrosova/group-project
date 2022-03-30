@@ -38,6 +38,15 @@ main {
     margin-top: -8em;
 }
 
+.sidebar {
+    margin-top: -1em;
+}
+
+.slider {
+    margin-top: -10em;
+    padding-left: 0.5em;
+}
+
 @media only screen and (min-width: 280px) {
 
     .header1  {

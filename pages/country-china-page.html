@@ -29,6 +29,7 @@
     </nav>
 
     <main>
+
       <h2 class="header1">China</h2>
       <p class="p1">
         <span>
@@ -52,7 +53,9 @@
         </span>
       </p>
 
-      <div>
+     
+
+      <div class="sidebar">
         <img class="flag" src="../images/country-page/Flag-China.jpg" alt="" />
 
         <h2 class="header2">flag of China</h2>
@@ -63,16 +66,22 @@
             <strong>Capital: </strong> Beijing (Peking) <br />
             <strong>Climate: </strong> Dry seasons and wet monsoons <br />
             <strong>Population: </strong> (2021 est.) 1,416,687,000 <br />
-            <strong>Currency Exchange Rate: </strong> 1 USD equals 6.316 Chinese
+            <strong>Currency Exchange Rate: </strong> 1 USD equals 6.316 <br/> Chinese
             yuan renminbi <br />
             <strong>Head of State: </strong> President: Xi Jinping
           </span>
         </p>
       </div>
 
-      <picture>
-        <img class="map" src="../images/country-page/China-map.jpg" alt="" />
-      </picture>
+      <div class="slider">
+      <div>
+        <img src="/images/country-page/China-map.jpg" name="slideshow"  id="slideshow">
+      </div>
+      <div class="sliderButton">
+        <button id="pre" onclick="changeImage(-1)">Previous</button>
+        <button id="nex" onclick="changeImage(1)">Next</button>
+      </div>
+    </div>
 
       <p class="p3">
         <span
@@ -189,12 +198,12 @@
     <footer>
       <div w3-include-html="footer.html"></div>
     </footer>
+    <script src="../js/country_page.js"></script>
     <script>
       includeHTML();
     </script>
     <button onclick="scrollToTop()" class="to-top fa-2x">
       <i class="fa fa-arrow-up fa-flip" aria-hidden="true"></i>
     </button>
-    <script src="../js/main-javascript.js"></script>
   </body>
 </html>
