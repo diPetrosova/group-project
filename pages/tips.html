@@ -119,6 +119,23 @@
             your ID, and contains your credit card information. So all purchases made onboard get automatically charged
             to your credit card and, unless otherwise specified, are expressed in $USD or CAD.</p>
     </div>
+<!--    form for connecting -->
+    <div class="tips-form">
+        <h3>
+            Connect us if you have any questions regarding preparation for your future travel
+        </h3>
+        <form action="" id="personal-info">
+            <label for="fName">First name</label>
+            <input type="text" id="fName" validation-type="name" required><span class="error-message"></span>
+            <label for="lName">Last name</label>
+            <input type="text" id="lName" validation-type="name" required><span class="error-message"></span>
+            <label for="email">Email</label>
+            <input type="email" id="email" validation-type="email" required><span class="error-message"></span>
+            <label for="phone">Phone</label>
+            <input type="text" id="phone" validation-type="phone" required><span class="error-message"></span>
+            <input type="button" value="Send" id="sendData"><span class="success-message"></span>
+        </form>
+    </div>
 </main>
 <footer>
     <div w3-include-html="footer.html"></div>
