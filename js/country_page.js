@@ -84,3 +84,36 @@
         document.getElementById('slideshow6').src = myImagesArray6[lowerLimit];
       }
 
+
+      "use strict";
+      $(document).ready( () => {
+
+      // handle click on Join List button
+      $("#submit_form").click( () => {
+        const email1 = $("#email_1").val();
+        const name2 = $("#name_2").val();
+        let isValid = true;
+
+        // validate the email address
+        if (email1 === "Email" || email1 === "") { 
+            $("#email_1").next().text("This field is required.");
+            isValid = false;
+        } else {
+            $("#email_1").next().text("");
+        } 
+        
+        // validate the name
+        if (name2 === "Name" || email1 === "") { 
+            $("#name_2").next().text("This field is required.");
+            isValid = false; 
+        } else {
+            $("#name_2").next().text("");
+        }
+                
+        // submit the form if all entries are valid
+        if (isValid) {
+            $("#email_form").submit();
+        }
+      });
+     $("#email_1").focus();
+   });

@@ -60,7 +60,6 @@
         <h2 class="header2">flag: Thailand</h2>
 
         <p class="p2">
-          <span>
             <strong>Head of Government: </strong>Prayuth Chan-ocha<br />
             <strong>Capital: </strong> Bangkok <br />
             <strong>Climate: </strong> Tropical climate<br />
@@ -68,13 +67,12 @@
             <strong>Currency Exchange Rate: </strong> 1 USD equals 32.419 baht
             <br />
             <strong>Head of State: </strong> King Vajiralongkorn
-          </span>
         </p>
       </div>
 
       <div class="slider">
         <div>
-          <img src="/images/country-page/Thailand-map.jpg" name="slideshow5"  id="slideshow5">
+          <img src="/images/country-page/Thailand-map.jpg" name="slideshow5"  id="slideshow5" width="350">
         </div>
         <div class="sliderButton">
           <button id="pre" onclick="changeImage5(-1)">Previous</button>
@@ -192,16 +190,55 @@
           the west and the other east-west in the south.
         </span>
       </p>
+
+      <div class="cmtDiv">
+        <h2 class="cmtHeader">Comments</h2>
+        <p class="cmtPar">
+          <strong>Julia</strong><br/>
+          very informative article, thank you! <br /><br />
+          <strong>Kathryn</strong><br />
+          Lovely article and the photos are beautiful!<br/>
+        </p>
+      </div>
+  
+      <div class="form1">
+        <p class="repPar">Leave a reply</p>
+        <p class="emPar">Your email address will not be published.</p>
+        <form id="email_form" name="email_form" 
+              action="comments.html" method="get">
+            <div class="replyDiv">
+                <input type="text" id="message" name="message">
+            </div>
+            <div class="replyDiv">
+                <input type="text" id="name_2" name="name_2" value="Name">
+                <span class="frmSpan">*</span>
+            </div>  
+            <div class="replyDiv">
+                <input type="text" id="email_1" name="email_1" value="Email">
+                <span class="frmSpan">*</span>
+            </div>
+            <div class="replyDiv">
+                <label>&nbsp;</label>
+                <input type="button" id="submit_form" value="Submit Comment">
+            </div>        
+        </form>
+      </div>
+      
     </main>
     <footer>
       <div w3-include-html="footer.html"></div>
     </footer>
+
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"></script>
     <script src="../js/country_page.js"></script>
+
     <script>
       includeHTML();
     </script>
+
     <button onclick="scrollToTop()" class="to-top fa-2x">
       <i class="fa fa-arrow-up fa-flip" aria-hidden="true"></i>
     </button>
+    
   </body>
 </html>

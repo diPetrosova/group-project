@@ -42,22 +42,15 @@
           around the country and traveller's testimonials.
       </p>
 
-      <!--Two images for the About Us-->
-      <picture>
-        <img
-          class="ab1"
-          src="../images/about-us-page images/museum.png"
-          alt=""
-        />
-        <img
-          class="ab2"
-          src="../images/about-us-page images/koldalen.png"
-          alt=""
-        />
-      </picture>
+      <!--Image rollover for the About Us-->
+
+      <ul id="image_rollovers">
+        <li><img src="/images/about-us-page images/museum.png" alt="" id="/images/about-us-page images/green.png"></li>
+        <li><img src="/images/about-us-page images/koldalen.png" alt="" id="/images/about-us-page images/stay.png"></li>
+     </ul>
 
       <!--Header for Who we are-->
-      <h2 class="header3">Who we are</h2>
+      <h2 class="header3">WHO WE ARE</h2>
 
       <!--Paragraph settings-->
       <p class="p2">
@@ -84,7 +77,7 @@
       </div>
 
       <!--Header for Our Team-->
-      <h2 class="header3">Our Team</h2>
+      <h2 class="header3">OUR TEAM</h2>
 
       <!--Paragraph settings-->
       <p class="p2">
@@ -107,20 +100,56 @@
           reliable information on our website. Like we said, we’re a one-stop
           hub for everything a traveller needs.
       </p>
+
+      <div class="cmtDiv">
+        <h2 class="cmtHeader">Do you have comments or suggestions?</h2>
+        <br />
+      </div>
+  
+      <div class="form1">
+        <form id="email_form" name="email_form" 
+              action="comments.html" method="get">
+
+            <div class="replyDiv">
+              <input type="text" id="email_1" name="email_1" value="Email Address">
+              <span class="frmSpan">*</span>  
+            </div>
+
+            <div class="replyDiv">
+                <input type="text" id="name_2" name="name_2" value="Name">
+                <span class="frmSpan">*</span>
+            </div><br/>
+
+            <div class="replyDiv">
+              <label>Comment</label><br />
+              <input type="text" id="message" name="message">
+                <span class="frmSpan">*</span>
+            </div>
+
+            <div class="btnDiv">
+                <label>&nbsp;</label>
+                <input type="button" id="submit_form" value="Submit">
+                <input type="button" id="clear_form" value="Clear Form">
+            </div> 
+
+        </form>
+      </div>
     </main>
 
     <footer>
       <div w3-include-html="footer.html"></div>
     </footer>
 
-    <!--Make an automatic slide to display the images-->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"></script>
     <script src="../js/about-us.js"></script>
 
     <script>
       includeHTML();
     </script>
+
     <button onclick="scrollToTop()" class="to-top fa-2x">
     <i class="fa fa-arrow-up fa-flip" aria-hidden="true"></i>
     </button>
+
   </body>
 </html>
