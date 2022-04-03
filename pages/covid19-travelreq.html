@@ -33,7 +33,7 @@
       </script>
       
     <h1>Covid-19 Travel Requirements</h1> 
-    <h2 ><a href="#">Travel Health Notice</a></h2>
+    <h2><a href="#">Travel Health Notice</a></h2>
     <div class="div1">
         <p class="pa1">
             If you decide to travel, review the travel health notice for COVID-19 and International Travel.
@@ -89,6 +89,7 @@
           <li><a class="situation" target="_blank" href="https://www.canada.ca/en/public-health/services/diseases/coronavirus-disease-covid-19/testing-screening-contact-tracing/summary-data-travellers.html">Summary data about travellers, testing and compliance</a></li>
         </ul>
       </div>
+
       <h2 ><a href="#">Travel Advice and Advisories</a></h2>
       <div class="div1">
         <p class="pa1">
@@ -101,17 +102,36 @@
         </p>
         <p class="pa1">See <a target="_blank" href="https://travel.gc.ca/travelling/advisories/faq">Travel Advice and Advisories – FAQ</a> for more information.</p>
       </div>
+
+      <div class="form1">
+        <p class="repPar">Want to be updated about Covid-19 travel requirements?</p>
+        <p class="emPar">Sign up for all the latest updates from our inside sources.</p>
+        <form id="email_form" name="email_form" 
+              action="comments.html" method="get">
+            <div class="replyDiv">
+              <input type="button" id="submit_form" value="SIGN ME UP."><input type="text" id="email_1" name="email_1" value="Your email address gets you access."><span>*</span> 
+            </div> 
+            <p class="signPar">By signing up, I agree to Dream Team's <u>Terms of Use</u> (including the <u>dispute resolution procedures);</u> my information will 
+              be used as <br /> described in the <u>Privacy Notice.</u>
+            </p>
+        </form>
+      </div>
     
     </main>
     <footer>
       <div w3-include-html="footer.html"></div>
     </footer>
+
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"></script>
     <script src="../js/covid19-travelreq.js"></script>
+
     <script>
       includeHTML();
     </script>
+
     <button onclick="scrollToTop()" class="to-top fa-2x">
       <i class="fa fa-arrow-up fa-flip" aria-hidden="true"></i>
     </button>
+    
   </body>
 </html>
