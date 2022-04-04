@@ -14,6 +14,7 @@
       type="text/javascript"
       src="../js/w3schoolsHTMLIncluder.js"
     ></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
     <link rel="stylesheet" href="../css/normalize.css" />
     <link rel="stylesheet" href="../css/main.css" />
     <link rel="stylesheet" href="../css/header.css" />
@@ -35,15 +36,18 @@
           <h2>Contact an Agent and plan your itinerary now !</h2>
           <hr />
           <br />
-          <form action="submit">
+          <h3 id="submitHeading">
+            Thanks for contacting, we will get back to you shortly.
+          </h3>
+          <form id="agentForm" method="get">
             <label for="firstName">First Name: </label>
             <input
               type="text"
               name="firstName"
               id="firstName"
               placeholder="First Name"
-              required
             />
+            <span id="error-alert">*</span>
             <br />
             <label for="lastName">Last Name: </label>
             <input
@@ -51,22 +55,25 @@
               name="lastName"
               id="lastName"
               placeholder="Last Name"
-              required
             />
+            <span id="error-alert">*</span>
             <br />
             <label for="mobile">Mobile Number: </label>
             <input type="text" name="mobile" id="mobile" />
+            <span id="error-alert">*</span>
             <br />
             <label for="email">Email: </label>
             <input type="email" name="email" id="email" />
+            <span id="error-alert">*</span>
             <br />
             <label for="from">From: </label>
-            <input type="from" name="from" id="from" required />
+            <input type="from" name="from" id="from" />
+            <span id="error-alert">*</span>
             <br />
             <label for="to">To: </label>
             <input type="to" name="to" id="to" readonly value="France" />
             <br />
-            <button id="submit">Submit</button>
+            <input type="button" id="submit" value="Submit" />
           </form>
         </div>
       </div>
