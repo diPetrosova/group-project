@@ -186,6 +186,15 @@ input {
   width: 80%;
 }
 
+#submitHeading {
+  display: none;
+}
+
+#error-alert {
+  color: red;
+  margin-left: 0.5rem;
+}
+
 .close {
   color: #aaaaaa;
   float: right;
