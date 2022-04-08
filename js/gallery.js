@@ -3,6 +3,8 @@ gridGallery({
     darkMode: true
 });
 
+// functionality for shuffling images on the gallery page
+
 let imagesArray = [];
 
 for (let i = 0; i < document.querySelectorAll('.gg-box img').length; i++) {
