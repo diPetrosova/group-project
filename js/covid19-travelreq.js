@@ -2,7 +2,6 @@
 
 // the event handler for the click event of each h2 element
   const toggle = (evt) => {
-  console.log(evt);
   const h2Element = evt.currentTarget; // get the clicked h2 element
   const divElement = h2Element.nextElementSibling; // get h2's sibling
 
