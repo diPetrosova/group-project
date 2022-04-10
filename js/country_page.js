@@ -110,10 +110,18 @@
             $("#name_2").next().text("");
         }
                 
-        // submit the form if all entries are valid
-        if (isValid) {
-            $("#email_form").submit();
+        // validate the message
+        if ($("#message").val() === "") {
+              $("#message").next().text("This field is required.");
+              isValid = false;
+        } else {
+              $("#message").next().text("");
         }
+          
+          // submit the form if all entries are valid
+          if (isValid) {
+              $("#email_form").submit();
+          }
       });
      $("#email_1").focus();
    });
