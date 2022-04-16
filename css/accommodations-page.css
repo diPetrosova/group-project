@@ -15,7 +15,17 @@
 .right{
     width: 10%;
 }
+.dark-mode {
+    background-color: black;
+  }
+  #dark{
 
+    background-color:  transparent;
+    color:yellow;
+    border-radius: 30px;
+    padding: 20px;
+    background-image: linear-gradient(to right, grey,black);
+  }
 /* Clear floats after the columns */
 .row:after {
     content: "";
