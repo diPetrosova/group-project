@@ -29,9 +29,7 @@ setTimeout(() => {
 
 populateNavigationBar = (navBarData) => {
   document.querySelectorAll("#navbar .sub-menu").forEach((ulElement) => {
-    let hasPagesUrl = ulElement.baseURI.split("/").includes("pages")
-      ? true
-      : false;
+    let hasPagesUrl = ulElement.baseURI.split("/").includes("pages");
     let countryName = ulElement.getAttribute("id");
     if (countryName !== "information") {
       for (let i = 0; i < 6; i++) {
