@@ -31,15 +31,13 @@ populateNavigationBar = (navBarData) => {
   document.querySelectorAll("#navbar .sub-menu").forEach((ulElement) => {
     let hasPagesUrl = ulElement.baseURI.split("/").includes("pages");
     let countryName = ulElement.getAttribute("id");
-    if (countryName !== "information") {
-      for (let i = 0; i < 6; i++) {
-        ulElement.appendChild(document.createElement("li"));
-        ulElement.children[i].innerHTML = `<a href=${
-          hasPagesUrl
-            ? navBarData[countryName][i].link
-            : "pages/" + navBarData[countryName][i].link
-        }>${navBarData[countryName][i].linkName}</a>`;
-      }
+    for (let i = 0; i < 6; i++) {
+      ulElement.appendChild(document.createElement("li"));
+      ulElement.children[i].innerHTML = `<a href=${
+        hasPagesUrl
+          ? navBarData[countryName][i].link
+          : "pages/" + navBarData[countryName][i].link
+      }>${navBarData[countryName][i].linkName}</a>`;
     }
   });
 };

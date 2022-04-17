@@ -154,5 +154,31 @@
       "linkName": "Getting around",
       "link": "getting-around-turkey-page.html"
     }
+  ],
+  "information": [
+    {
+      "linkName": "About us",
+      "link": "about-us-page.html"
+    },
+    {
+      "linkName": "Contact us",
+      "link": "contact-us-page.html"
+    },
+    {
+      "linkName": "Tips for travelers",
+      "link": "tips.html"
+    },
+    {
+      "linkName": "Covid-19 travel requirements",
+      "link": "covid19-travelreq.html"
+    },
+    {
+      "linkName": "Testimonials",
+      "link": "testimonial.html"
+    },
+    {
+      "linkName": "Car rental",
+      "link": "car%20retal.html"
+    }
   ]
 }
