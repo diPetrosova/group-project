@@ -1,7 +1,7 @@
 // populating country blocks for the index page
 
 $(document).ready(function () {
-    $.getJSON('../json/index-page.json', function (data) {
+    $.getJSON('/../json/index-page.json', function (data) {
         $.each(data.countries, function () {
 
             let newCountry = $("body").find(".country-wrapper-hidden").clone();
