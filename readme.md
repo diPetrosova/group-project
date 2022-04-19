@@ -9,33 +9,32 @@ Team Members: 	Jaimaica Daisy Eugenio
 Tasks:
 
 Diana Petrosova:
-Page 1 - Home page
-Page 2 - Gallery page
-Page 3 - Tips for travellers
+Page 1 - Home page (using JSON to fill in the page, "To top " button, including nav, header and footer with JS)
+Page 2 - Gallery page (shuffle images by clicking the button, gallery using JS)
+Page 3 - Tips for travellers (a form with JS validation, Tabs using JS)
 Project structure
-Merging code to the repo 
+Merging code to the repo
 
 Jaimaica Daisy Eugenio:
-Page 1 - About Us page (This page will be about out company, where the company was established, where it wotks, about expereince...)
-Page 2 - Country page  (Information about each country like where it is, climet, popuation, known facts. It will be 6 similar by the structure pages but with different content and images for each country)
-Page 3 - Covid-19 Travel Requirements
+Page 1 - about-us-page.html - rollover image, slideshow image, email_form
+Page 2 - country-france-page.html - side with controls, email_form
+Page 3 - covid19-travelreq.html - date, dom, email_form
 Header
 
 Mohit Marwah:
+Page 1 - Accommodation page - use js for dark mode
+Page 2 - Contact us - use js as dark mode and validation
+Page 3 - Car rental - used dark mode as js
 Footer
-Page 1 - Contact Us page (Google map) (Contact information of the company, address, phone, map...)
-Page 2 - “Popular accommodations for tourists” page (It will be 6 similar by the structure pages but with different content and images for each country)
-Page 3 -
 
 Mudit Khanna:
-Page 1 - Local cuisine page (It will be 6 similar by the structure pages but with different content and images for each country)
-Page 2 - Places to visit page (It will be 6 similar by the structure pages but with different content and images for each country)
-Page 3 -
+Page 1 - Navigation Bar- JS to populate navigation links dynamically
+Page 2 - Cuisines- JS to populate images, information dynamically
+Page 3 - Places to Visit- Carousel using vanilla javascript
+Agent contact form- JS to create modal and jquery to validate the form
 Navigation
-Agent contact form
 
 Ishita Bhawra:
-Page 1 - Getting around page (It will be 6 similar by the structure pages but with different content and images for each country)
-Page 2 - Testimonials page  (for the company)
-Page 3 -
-Slider (On the home page)
+Page 1 - Getting around page- Java script for text blink, color change for text, image blink
+Page 2 - Testimonial page- Java script text animation, text blink, text color change, animation on image hover.
+Page 3 - Slider for home page- Java script to change the images on slider with next and prev button with title effect.
